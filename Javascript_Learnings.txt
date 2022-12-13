@@ -1,0 +1,23 @@
+Destructure undefined in JavaScript:
+function pointValues(point){
+    const {name:n,age:a} = {...point} 
+    console.log(n)
+    console.log(a)
+}
+pointValues({name:"jerry", age:2})
+pointValues(undefined)
+
+function add(a){
+	return funtion (b){
+		return a+b;
+	}
+}
+
+same as:
+const add2 = a => b => a+ b;
+add2(1)(5);
+
+higher order function (map, timeout, filter)
+composing and piping,
+currying
+pure functions
