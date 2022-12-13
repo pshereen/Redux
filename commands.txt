@@ -1,3 +1,0 @@
-
-Run command:
-npx create-react-app learnreact
